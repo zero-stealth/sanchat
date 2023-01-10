@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300');
+* {
+
+
+  /* reset  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  
+  /* colors scheme  */
+  --bg-color: rgb(48, 39, 39);
+  --primary-color: rgb(0, 126, 118);
+  --text-color-dark: rgb(58, 61, 71);
+  --bg-color-light: rgb(247, 247, 247);
+  --text-color-light: rgb(173, 173, 173);
+
+}
+
+.app-d {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y:auto;
+  position: fixed;
+  overflow: hidden;
+  overflow-x: hidden;
+}
+
+body {    
+    font-weight: 300;
+    font-family: 'Merriweather', serif;
+    background-color: var(--bg-color-light);
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+input:hover {
+  outline: none;
+}
